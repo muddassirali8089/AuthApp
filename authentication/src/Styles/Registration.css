@@ -1,0 +1,24 @@
+
+
+
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    border: 1px solid black;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 280px;
+}
+.reg_sub_btn{
+    width: 330px;
+}
+@media screen and (min-width: 320px) and (max-width: 576px) {
+    .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+        border: 1px solid black;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        width: 250px;
+    }
+
+    .reg_sub_btn{
+        width: 300px;
+    }
+  }
